@@ -1,0 +1,211 @@
+/* Side Menu */
+/*Use this with the solid backgrounds*/
+/*#sidebar-wrapper-background:before {
+content: "";
+position:absolute;
+z-index: 1;
+width:10px;
+top: 0px;
+height: 100%;
+right: -10px;
+box-shadow:0 0 30px rgba(0,0,0,0.8);
+}*/
+/* line 17, ../../app/styles/navaside.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #555555 !important;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 25, ../../app/styles/navaside.scss */
+#sidebar-wrapper-background {
+  overflow: hidden;
+  background: rgba(102, 102, 76, 0.95);
+  /*Best Solid Background*/
+  /*border-right: 2px solid #333;*/
+  /*background: rgb(102,102,51);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjYzMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzY2NjYxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NjY2MGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  rgba(102,102,51,1) 0%, rgba(102,102,25,1) 85%, rgba(102,102,13,1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(102,102,51,1)), color-stop(85%,rgba(102,102,25,1)), color-stop(100%,rgba(102,102,13,1)));
+  background: -webkit-linear-gradient(left,  rgba(102,102,51,1) 0%,rgba(102,102,25,1) 85%,rgba(102,102,13,1) 100%);
+  background: -o-linear-gradient(left,  rgba(102,102,51,1) 0%,rgba(102,102,25,1) 85%,rgba(102,102,13,1) 100%);
+  background: -ms-linear-gradient(left,  rgba(102,102,51,1) 0%,rgba(102,102,25,1) 85%,rgba(102,102,13,1) 100%);
+  background: linear-gradient(to right,  rgba(102,102,51,1) 0%,rgba(102,102,25,1) 85%,rgba(102,102,13,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666633', endColorstr='#66660d',GradientType=1 );*/
+  /*Best transparent background*/
+  /*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjYzMyIgc3RvcC1vcGFjaXR5PSIwLjg1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjkxJSIgc3RvcC1jb2xvcj0iIzY2NjYxNCIgc3RvcC1vcGFjaXR5PSIwLjg1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NjY2MTQiIHN0b3Atb3BhY2l0eT0iMC44NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  rgba(102,102,51,0.85) 0%, rgba(102,102,20,0.85) 91%, rgba(102,102,20,0.85) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(102,102,51,0.85)), color-stop(91%,rgba(102,102,20,0.85)), color-stop(100%,rgba(102,102,20,0.85)));
+  background: -webkit-linear-gradient(left,  rgba(102,102,51,0.85) 0%,rgba(102,102,20,0.85) 91%,rgba(102,102,20,0.85) 100%);
+  background: -o-linear-gradient(left,  rgba(102,102,51,0.85) 0%,rgba(102,102,20,0.85) 91%,rgba(102,102,20,0.85) 100%);
+  background: -ms-linear-gradient(left,  rgba(102,102,51,0.85) 0%,rgba(102,102,20,0.85) 91%,rgba(102,102,20,0.85) 100%);
+  background: linear-gradient(to right,  rgba(102,102,51,0.85) 0%,rgba(102,102,20,0.85) 91%,rgba(102,102,20,0.85) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9666633', endColorstr='#d9666614',GradientType=1 );
+  */
+  /*background: rgba(102,102,20,0.85);*/
+  /*Optional shading to replace the :before*/
+  /*-moz-box-shadow:    inset 0 0px 7px 0px #111111;
+  -webkit-box-shadow: inset 0 0px 7px 0px #111111;
+  box-shadow:         inset 0 0px 7px 0px #111111;*/
+}
+
+/* line 62, ../../app/styles/navaside.scss */
+#sidebar-wrapper {
+  border-right: 1px solid #555555;
+  /*border-top: 1px solid dimgray;*/
+  /*border-right: 1px solid dimgray;*/
+  /*border-bottom: 1px solid dimgray;*/
+  /*border-top: 1px solid rgb(55,69,30);*/
+  /*border-right: 1px solid rgb(55,69,30);*/
+  /*border-bottom: 1px solid rgb(55,69,30);*/
+}
+
+/* line 72, ../../app/styles/navaside.scss */
+.side-wrapper-nav {
+  margin-left: -250px;
+  left: 0px;
+  top: 0px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  z-index: 1002;
+  transition: all 0.4s ease 0s;
+  font-weight: bold;
+}
+
+/* line 84, ../../app/styles/navaside.scss */
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 93, ../../app/styles/navaside.scss */
+.sidebar-nav li {
+  color: #eeeeee;
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+/* line 99, ../../app/styles/navaside.scss */
+.sidebar-nav li a {
+  color: #eeeeee;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 105, ../../app/styles/navaside.scss */
+.sidebar-nav li a:hover {
+  color: #1b7fcc;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  margin: -1px 0px;
+  text-decoration: none;
+}
+
+/* line 116, ../../app/styles/navaside.scss */
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/* line 120, ../../app/styles/navaside.scss */
+.sidebar-nav > .sidebar-brand {
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+}
+
+/* line 126, ../../app/styles/navaside.scss */
+.sidebar-nav > .sidebar-brand a {
+  color: #eee;
+}
+
+/* line 130, ../../app/styles/navaside.scss */
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #1b7fcc;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 136, ../../app/styles/navaside.scss */
+#menu-close {
+  position: absolute;
+  padding: 5px 10px;
+  right: 0px;
+  top: 6px;
+  transition: all 0.4s ease 0s;
+}
+
+/* line 144, ../../app/styles/navaside.scss */
+.close-left {
+  right: -23px !important;
+}
+
+/* line 148, ../../app/styles/navaside.scss */
+.side-wrapper-nav.active {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+/* line 154, ../../app/styles/navaside.scss */
+.toggle {
+  margin: 5px 5px 0 0;
+}
+
+/* END Side Menu*/
+/* line 160, ../../app/styles/navaside.scss */
+#globalNav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1001;
+  min-width: 300px;
+}
+
+/* line 170, ../../app/styles/navaside.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 174, ../../app/styles/navaside.scss */
+.navRight {
+  float: right !important;
+  margin-left: -200px !important;
+}
+
+/* line 179, ../../app/styles/navaside.scss */
+.navLeft {
+  margin-right: -107px !important;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 185, ../../app/styles/navaside.scss */
+#navRightButton {
+  margin-left: -44px;
+}
+
+/* line 189, ../../app/styles/navaside.scss */
+.navbarCenter {
+  width: 100%;
+}
+
+/* line 193, ../../app/styles/navaside.scss */
+.navbar-header {
+  text-align: center;
+  width: 100%;
+  padding-left: 107px;
+  padding-right: 200px;
+  display: inline-block;
+}
